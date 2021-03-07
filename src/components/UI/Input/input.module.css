@@ -3,13 +3,13 @@
     top: 60%;
     left: 10%;
     width: 80%;
-    border: 2px solid #ccc;
 }
 
 .input {
-    width: 80%;
-    border-radius: 10px;
+    width: 90%;
+    border-radius: 20px 0 0 20px;
     padding: 7px;
+    box-sizing: border-box;
     font-size: 1.15rem;
     color: gray;
     outline: none;

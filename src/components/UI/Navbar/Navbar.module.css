@@ -1,0 +1,23 @@
+nav {
+    width: 100vw;
+    background-color: #2B5EF0;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul > .end {
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+    color: whitesmoke;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}

@@ -10,9 +10,8 @@ const Home = () => {
         <>
             <Navbar />
             <Jumbotron input={input} setInput={setInput}/>
-            <Cards />
-            <Cards />
-            <Cards />
+            <Cards search = "movies"/>
+            <Cards search = "tv"/>
         </>
     );
 }
